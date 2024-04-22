@@ -21,7 +21,7 @@ input[type="number"] {
     border: 2px solid #007bff;
     border-radius: 5px;
     font-size: 18px; /* Increased font size */
-    width: 20%; /* Ensure consistent width */
+    width: 30%; /* Ensure consistent width */
 }
 
 button {
