@@ -2,7 +2,7 @@
 
 Simple random number generator that can be used for raffles etc. 
 
-![CleanShot 2024-03-19 at 14 36 53@2x](https://github.com/al-lac/random-number-generator/assets/11136952/cd0421fa-4218-44f3-865a-cc7a08a43830)
+![demo](./assets/demo-run.png)
 
 
 ## Run container from GitHub registry
