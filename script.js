@@ -6,16 +6,15 @@ function generateRandomNumbers() {
     if (!isNaN(min) && !isNaN(max) && min < max 
             && !isNaN(iterations) && iterations > 0) {
         document.getElementById('result').innerHTML = 'Your lucky numbers are:<br>';
-        const generatedNumbers = new Set();
-        while (generatedNumbers.size < iterations) {
-            const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-            generatedNumbers.add(randomNumber);
-        }
-        generatedNumbers.forEach(number => {
+        for (let i = 0; i < iterations; i++) {
+
+            number = Math.floor(Math.random() * (max - min + 1)) + min;
             console.log(number);
             document.getElementById('result').innerHTML += number + '<br>';
-        });
-    } else {
+        
+        } 
+    }
+    else {
         console.log('Invalid range');
         document.getElementById('result').innerText = 'Invalid range';
     }
