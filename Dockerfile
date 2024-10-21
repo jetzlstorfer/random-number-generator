@@ -1,5 +1,5 @@
 # Use an official lightweight Node.js image.
-FROM node:alpine
+FROM node:23-alpine
 
 # Set the working directory in the container
 WORKDIR /usr/src/app

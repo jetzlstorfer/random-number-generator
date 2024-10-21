@@ -5,16 +5,9 @@ Simple random number generator that can be used for raffles etc.
 ![demo](./assets/demo-run.png)
 
 
-## Run container from GitHub registry
-
-```bash
-docker pull ghcr.io/al-lac/random-number-generator:main
-docker run -p 8080:8080 ghcr.io/al-lac/random-number-generator:main
-```
-
 ## Build it yourself
 
 ```bash
 docker build -t random-number-generator .
-docker run -p 8080:8080 random-number-generator:latest
+docker run -p 8080:8080 random-number-generator
 ```
